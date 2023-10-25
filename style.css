@@ -1,0 +1,64 @@
+html{ 
+  font-family: 'Handlee', cursive;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg,#05302f , #3f817d 74%)
+}
+
+.btn {
+  background: #222;
+  height:45px;
+  min-width: 90px;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 35px;
+  font-family: "Handlee", cursive;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 10px;
+  margin:10px;
+}
+
+.btn#circle{
+  height: 5px;
+  width: 5px;
+  background: tranparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow:  hidden;
+  transition: 500ma;
+}
+.btn:hover #circle {
+  height: 50px;
+  width: 100px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid pink;
+}
+
+#input{
+  background: #222;
+  height: 1.5em;
+  width: 190px;
+  border: none;
+  border-radius: 10px;
+  color: pink;
+  font-size: 2em;
+  font-family: "Handlee", cursive;
+  padding: 10px;
+  margin: 10px;
+}
+
+.noselect{
+  color: #ffff;
+}
